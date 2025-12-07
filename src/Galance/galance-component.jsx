@@ -26,7 +26,8 @@ function Mycomponent() {
   return (
     <GalanceStyle>
       <h1 className="title">
-        <span>Impact at a Glance</span>
+        <span style={{ color: 'black' }}>Impact at a </span>
+        <span style={{ color: 'red' }}>Glance</span>
       </h1>
 
       <div className="grid_box">

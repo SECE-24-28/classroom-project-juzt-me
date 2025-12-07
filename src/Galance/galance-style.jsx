@@ -1,7 +1,6 @@
 /*import styled from "styled-components";
 
-export const Galancestyle= styled.div`
-
+export const Galancestyle = styled.div`
   .B1 {
     width: 100%;
     height: 300px;
@@ -10,7 +9,7 @@ export const Galancestyle= styled.div`
     justify-content: space-evenly;
     align-items: center;
   }
-    
+
   .B11 {
     width: 300px;
     height: 150px;
@@ -23,10 +22,10 @@ export const Galancestyle= styled.div`
     font-weight: 600;
     color: black;
     border-radius: 10px;
-     background: #bfe2f0ff;
+    background: #bfe2f0ff;
     transition: 0.5s;
   }
-.B12 {
+  .B12 {
     width: 300px;
     height: 150px;
     //border: 2px solid red;
@@ -38,9 +37,10 @@ export const Galancestyle= styled.div`
     font-weight: 600;
     color: black;
     border-radius: 10px;
-     background: #d02e9aff;
+    background: #d02e9aff;
     transition: 0.5s;
-  }.B13 {
+  }
+  .B13 {
     width: 300px;
     height: 150px;
     //border: 2px solid red;
@@ -52,9 +52,10 @@ export const Galancestyle= styled.div`
     font-weight: 600;
     color: black;
     border-radius: 10px;
-     background: #d8c12cff;
+    background: #d8c12cff;
     transition: 0.5s;
-  }.B14 {
+  }
+  .B14 {
     width: 300px;
     height: 150px;
     //border: 2px solid red;
@@ -66,7 +67,7 @@ export const Galancestyle= styled.div`
     font-weight: 600;
     color: black;
     border-radius: 10px;
-     background: #b086e8ff;
+    background: #b086e8ff;
     transition: 0.5s;
   }
 `;
@@ -113,6 +114,7 @@ export const GalanceStyle = styled.div`
   .card h2 {
     font-size: 30px;
     font-weight: 700;
+    color: black;
   }
 
   .pink {

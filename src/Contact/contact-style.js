@@ -46,10 +46,15 @@ export const ContactStyle = styled.div`
     width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   img {
-    width: 50%;
-    border-radius: 1000px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: white;
+    padding: 15px;
+    object-fit: contain;
   }
 `;
