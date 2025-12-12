@@ -14,6 +14,7 @@ import UseEffectComponent from "./use-effect-practice/use-effect-practice";
 import SignupFormComponent from "./signup-form-api/signup-form-component";
 import UserFetchViaEmail from "./user-fetch-via-email/user-fetch-via-email";
 import UsestateComponent from "./usestate-1st/use-state-component.jsx";
+import AdditionOperationComponent from "./addition-operation-in-state/addition-operation-component.jsx";
 
 function App() {
   return (
@@ -25,7 +26,10 @@ function App() {
       <Route path="/our-promises" element={<OurPromisesComponent />} />
       <Route path="/contact" element={<ContactSection />} />
       <Route path="/college" element={<College />} />
-
+      <Route
+        path="/addition-operation-in-state"
+        element={<AdditionOperationComponent />}
+      />
       {/* Practice pages */}
       <Route path="/api-fetch" element={<FetchApiComponent />} />
       <Route path="/use-effect-practice-2" element={<UseEffectPracticeTwo />} />
